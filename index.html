@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="Allcss/css_index/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="Allcss/css_index/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="lato.css">
+<link rel="stylesheet" href="min.css">
+	<script src="Alljs/js_index/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>BENEFITS OF YOGA</title>
+</head>
+<!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
+
+<body data-hijacking="off" data-animation="scaleDown">
+	<div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
+	  <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+	  <a href="main.html" class="w3-bar-item w3-button">HOME</a>
+	  <a href="trip.html" class="w3-bar-item w3-button">TRIP</a>
+	  <a href="buy.html" class="w3-bar-item w3-button">OFFERS</a>
+	  <a href="start.html" class="w3-bar-item w3-button">FREE TRIAL</a>
+	  <a href="contact.html" class="w3-bar-item w3-button">CONTACT US</a>
+	</div>
+	<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+	<div style="position: fixed;top: 0;width: 30px;z-index: 1;">
+	  <button class="w3-button w3-xxlarge" onclick="w3_open()">&#9776;</button>
+	  </div>
+
+	<section class="cd-section visible">
+		<div>
+			<h2>BENEFITS OF YOGA</h2>
+		</div>
+	</section>
+
+	<section class="cd-section">
+			<div>
+				<h2 style="text-decoration: none;"><a href="med.html">YOGA AND MEDITATION</a></h2>
+			</div>		
+	</section>
+
+	<section class="cd-section">
+		<div>
+			<h2 style="text-decoration: none;"><a href="health.html">HEALTH BENEFITS</a></h2>
+		</div>
+	</section>
+
+	<section class="cd-section">
+		<div>
+			<h2 style="text-decoration: none;"><a href="diseases.html">PREVENTION OF DISEASES</a></h2>
+		</div>
+	</section>
+
+	<section class="cd-section">
+		<div>
+			<h2 style="text-decoration: none;"><a href="stress.html">STRESS BUSTER</a></h2>
+		</div>
+	</section>
+
+	<nav>
+		<ul class="cd-vertical-nav">
+			<li><a href="#0" class="cd-prev inactive">Next</a></li>
+			<li><a href="#0" class="cd-next">Prev</a></li>
+		</ul>
+	</nav> <!-- .cd-vertical-nav -->
+<script src="Alljs/js_index/jquery-2.1.4.js"></script>
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+<script src="Alljs/js_index/velocity.min.js"></script>
+<script src="Alljs/js_index/velocity.ui.min.js"></script>
+<script src="Alljs/js_index/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
